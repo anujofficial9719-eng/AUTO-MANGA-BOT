@@ -449,7 +449,7 @@ class MangaDexBot:
 
                 post_photo = str(thumb_path) if thumb_path else None
                 
-                channel_link = "https://t.me/about_zani/195"
+                channel_link = "https://t.me/anujkumar_9/5743"
 
                 
                 success = False
