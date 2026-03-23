@@ -91,8 +91,8 @@ async def start_msg(client, message):
                 InlineKeyboardButton(" Help", callback_data="help_menu")
             ],
             [
-                InlineKeyboardButton(" Official Channel", url="https://t.me/RexBots_Official"),
-                InlineKeyboardButton(" Developer", url="https://t.me/RexBots_Official")
+                InlineKeyboardButton(" Official Channel", url="https://t.me/anujedits76"),
+                InlineKeyboardButton(" Developer", url="https://t.me/anujedits76")
             ]
         ])
 
@@ -131,7 +131,7 @@ async def help_menu(client, callback_query):
         "• <b>Search Manga:</b> Just send me the manga name (e.g. `One Piece`) to begin.\n\n"
         "• <b>Select Source:</b> Choose your preferred Language and Website from the options.\n\n"
         "• <b>Download or Subscribe:</b> You can download individual chapters or Subscribe to get auto-updates when new chapters are released.\n\n"
-        "<b>📢 Updates Channel:</b> @RexBots_Official"
+        "<b>📢 Updates Channel:</b> @anujedits76"
     )
     
     buttons = [[InlineKeyboardButton("🔙 back", callback_data="start_menu")]]
