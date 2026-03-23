@@ -10,12 +10,12 @@
 import os
 
 class Config:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    USER_ID = int(os.getenv("USER_ID", ""))
-    API_ID = int(os.getenv("API_ID", ""))
-    API_HASH = os.getenv("API_HASH", "")
-    DB_NAME = os.getenv("DB_NAME", "")
-    DB_URL = os.getenv("DB_URL", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "8289266281:AAGurTXYqPrAP0h6Edl2Tn2C779HkZj_9yM")
+    USER_ID = int(os.getenv("USER_ID", "7892805795"))
+    API_ID = int(os.getenv("API_ID", "34724970"))
+    API_HASH = os.getenv("API_HASH", "f240eae7c60e8e30c17203ab0e052f7e")
+    DB_NAME = os.getenv("DB_NAME", "Anujedit")
+    DB_URL = os.getenv("DB_URL", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
     CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", ""))
     MAX_CHAPTERS_PER_CHECK = int(os.getenv("MAX_CHAPTERS", "5"))
     DOWNLOAD_DIR = "downloads"
