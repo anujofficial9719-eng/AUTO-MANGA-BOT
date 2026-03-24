@@ -154,8 +154,8 @@ async def start_menu_cb(client, callback_query):
             InlineKeyboardButton(" Help", callback_data="help_menu")
         ],
         [
-            InlineKeyboardButton(" Official Channel", url="https://t.me/akaza7902"),
-            InlineKeyboardButton(" Developer", url="https://t.me/akaza7902")
+            InlineKeyboardButton(" Official Channel", url="https://t.me/anujedits76"),
+            InlineKeyboardButton(" Developer", url="https://t.me/anujedits76")
         ]
     ])
     await edit_msg_with_pic(callback_query.message, caption, buttons)
